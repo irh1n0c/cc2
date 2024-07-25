@@ -69,7 +69,7 @@ class Personaje{
 				*posx = 1250.0f;
 			
 			
-				if(name == "Chainsaw-man"){
+				if(name == "Ken"){
 					this->type =       "Hielo";
 					this->advantage1 = "Hielo";
 					this->advantage2 = "Magia";

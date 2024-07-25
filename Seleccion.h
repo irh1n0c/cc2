@@ -20,21 +20,21 @@ class Selection:public Menu{
 			
 			menu[0].setFont(font);
 			menu[0].setFillColor(sf::Color::Red);
-			menu[0].setString("Chainsaw-man");
+			menu[0].setString("Ken");
 			menu[0].setPosition(sf::Vector2f(600, CalculateHeight1(height, 1)));
 			menu[0].setCharacterSize(100);
 			menu[0].setCharacterSize(32);
 			
 			menu[1].setFont(font);
 			menu[1].setFillColor(sf::Color::White);
-			menu[1].setString("Gun-devil");
+			menu[1].setString("Gun-Devil");
 			menu[1].setPosition(sf::Vector2f(600, CalculateHeight1(height, 2)));
 			menu[1].setCharacterSize(100);
 			menu[1].setCharacterSize(32);
 			
 			menu[2].setFont(font);
 			menu[2].setFillColor(sf::Color::White);
-			menu[2].setString("Makima");
+			menu[2].setString("Zena");
 			menu[2].setPosition(sf::Vector2f(600, CalculateHeight1(height, 3)));
 			menu[2].setCharacterSize(100);
 			menu[2].setCharacterSize(32);

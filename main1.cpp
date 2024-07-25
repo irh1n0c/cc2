@@ -125,19 +125,19 @@ int main()
 							
 							if(Keyboard::isKeyPressed(Keyboard::Q)){
 								if(selection.GetPressedItem()==0){
-									personajeone = "Chainsaw-man";
+									personajeone = "Ken";
 								}
 								
 								if(selection.GetPressedItem()==1){
-									personajeone = "Gun-devil";
+									personajeone = "Other 0";
 								}
 								if(selection.GetPressedItem()==2){
-									personajeone = "Makima";
+									personajeone = "Zena";
 								}
 								
 								
 								if(selection.GetPressedItem()==3){
-									personajeone = "Power";
+									personajeone = "Other 3";
 								}
 								
 						
@@ -146,19 +146,19 @@ int main()
 							
 							if(Keyboard::isKeyPressed(Keyboard::Return)){
 								if(selection2.GetPressedItem()==0){
-									personajedos = "Chainsaw-man";
+									personajedos = "Ken";
 								}
 								
 								if(selection2.GetPressedItem()==1){
-									personajedos = "Gun-devil";
+									personajedos = "Other 0";
 								}
 								if(selection2.GetPressedItem()==2){
-									personajedos = "Makima";
+									personajedos = "Zena";
 								}
 								
 								
 								if(selection2.GetPressedItem()==3){
-									personajedos = "Power";
+									personajedos = "Other 3";
 								}
 								
 						
