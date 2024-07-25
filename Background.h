@@ -6,47 +6,7 @@
 #include "DynamicArray.h"
 #include <memory>
 
-/*class Background{
-	public:
-		virtual void draw() = 0;
-};
 
-class Background1:public Background{
-	private:
-		sf::Texture background;
-	public:
-		draw(sf::RenderWindow &window){
-			if (!background.loadFromFile("Images/background1.png"))
-        		return EXIT_FAILURE;
-    		sf::Sprite background1(background);
-			window.draw(background1);
-		}
-};
-
-class Background2:public Background{
-	private:
-		sf::Texture background;
-	public:
-		draw(sf::RenderWindow &window){
-			if (!background.loadFromFile("Images/background2.png"))
-        		return EXIT_FAILURE;
-    		sf::Sprite background2(background);
-			window.draw(background2);
-		}
-};
-
-class Background3:public Background{
-	private:
-		sf::Texture background;
-	public:
-		draw(sf::RenderWindow &window){
-			if (!background.loadFromFile("Images/background3.png"))
-        		return EXIT_FAILURE;
-    		sf::Sprite background3(background);
-			window.draw(background3);
-		}
-};
-*/
 
 namespace std {
     template<class T> struct _Unique_if {
@@ -79,13 +39,17 @@ namespace std {
         make_unique(Args&&...) = delete;
 }
 
-class Create_Background{
-	public:
-		Create_Background(sf::Sprite background1, sf::Sprite background2, sf::Sprite background3){
-			
-			std::unique_ptr<int> background = make_unique<int[]>(5);
-			
-		}
+class Create_Background {
+public:
+    Create_Background(sf::Sprite background1, sf::Sprite background2, sf::Sprite background3) {
+        backgrounds = std::make_unique<sf::Sprite[]>(3);
+        backgrounds[0] = std::move(background1);
+        backgrounds[1] = std::move(background2);
+        backgrounds[2] = std::move(background3);
+    }
+
+private:
+    std::unique_ptr<sf::Sprite[]> backgrounds;
 };
 
 #endif
