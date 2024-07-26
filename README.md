@@ -2,9 +2,12 @@
 
 Devs: 
 
-OLAZABAL/CHAVEZ, NEILL ELVERTH
-LUIS/JIMENEZ, MARIANA VALERY
-AGOSTINELLI/CORDOVA, CLAUDIA VICTORIA
-HUAYNASI/MAMANI, JOSE LUIS
+Neil Olazabal
+
+Mariana Luis
+
+Claudia Agostinelli
+
+Jose Huaynasi
 
 proyecto de juego
