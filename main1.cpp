@@ -126,14 +126,14 @@ int main()
 
 							if (Keyboard::isKeyPressed(Keyboard::Q)) {
 								if (selection.GetPressedItem() == 0) {
-									personajeone = "Chainsaw-man";
+									personajeone = "Ken";
 								}
 
 								if (selection.GetPressedItem() == 1) {
 									personajeone = "Gun-devil";
 								}
 								if (selection.GetPressedItem() == 2) {
-									personajeone = "Makima";
+									personajeone = "Zena";
 								}
 
 
