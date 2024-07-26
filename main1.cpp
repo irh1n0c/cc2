@@ -28,7 +28,7 @@ int main()
 {
 
 	// Create the main window   con 1920.1080
-	RenderWindow window(VideoMode(1366, 768), "Chainsaw man fighters", Style::Close | Style::Resize);
+	RenderWindow window(VideoMode(1366, 768), "Street 5ter", Style::Close | Style::Resize);
 	//GameFont gamefont;  
 	Menu menu(window.getSize().x, window.getSize().y);
 	Selection selection(window.getSize().x, window.getSize().y);
@@ -147,14 +147,14 @@ int main()
 
 							if (Keyboard::isKeyPressed(Keyboard::Return)) {
 								if (selection2.GetPressedItem() == 0) {
-									personajedos = "Chainsaw-man";
+									personajedos = "Ken";
 								}
 
 								if (selection2.GetPressedItem() == 1) {
 									personajedos = "Gun-devil";
 								}
 								if (selection2.GetPressedItem() == 2) {
-									personajedos = "Makima";
+									personajedos = "Zena";
 								}
 
 

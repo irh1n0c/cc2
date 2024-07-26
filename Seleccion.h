@@ -34,7 +34,7 @@ class Selection:public Menu{
 			
 			menu[2].setFont(font);
 			menu[2].setFillColor(sf::Color::White);
-			menu[2].setString("Makima");
+			menu[2].setString("Zena");
 			menu[2].setPosition(sf::Vector2f(600, CalculateHeight1(height, 3)));
 			menu[2].setCharacterSize(100);
 			menu[2].setCharacterSize(32);

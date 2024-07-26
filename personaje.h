@@ -100,7 +100,7 @@ public:
 			this->p1.complete(&skin, Vector2u(4, 6), 0.2f, typeofplayer, 10.f * 0.15);
 
 		}
-		else if (name == "Makima") {
+		else if (name == "Zena") {
 			this->type = "Ground";
 			this->advantage1 = "";
 			this->advantage2 = "Fire";
