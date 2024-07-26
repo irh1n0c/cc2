@@ -12,7 +12,7 @@ using namespace sf;
 void loadTextures(Texture& background, Texture& backgroundmenu, Texture& instructionss, Texture& select) {
     if (!background.loadFromFile("Images/escenario.jpg") ||
         !backgroundmenu.loadFromFile("Images/chain_fondo.jpg") ||
-        !instructionss.loadFromFile("Images/Instruccioness.jpg") ||
+        !instructionss.loadFromFile("Images/instrucciones.png") ||
         !select.loadFromFile("Images/selection.jpg")) {
         throw std::runtime_error("Error loading textures");
     }
