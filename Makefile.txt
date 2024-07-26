@@ -1,0 +1,17 @@
+CC = g++
+CFLAGS = -c -Wall
+LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+SOURCES = main1.cpp
+OBJECTS = $(SOURCES:.cpp=.o)
+EXECUTABLE = main1
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $@ $(LDFLAGS)
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+clean:
+	rm -f *.o $(EXECUTABLE)
