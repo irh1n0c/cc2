@@ -1,17 +1,13 @@
 #include "chess.h"
 #include "figures.h"
+#include <stdio.h>
 
-
-void display(){
-  char** triangulo = stone;
-  char** cuadradoB = whiteSquare;
-  char** cuadradoN = reverse(cuadradoB);
-
-  char** lineaT = repeatH(join(cuadradoB, cuadradoN), 4);
-  char** lineaInversa = repeatH(join(cuadradoN, cuadradoB), 4);
-  interpreter(lineaInversa);
-  interpreter(queen);
-  
-  
+void print(char** figure){
+  for(int i=0; i<58; i++){
+    printf("%s\n", figure[i]);
+  }
 }
 
+void display(){
+  print(rook);
+}
