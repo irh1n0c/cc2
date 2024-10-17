@@ -3,10 +3,7 @@
 
 
 void display(){
-    char** probado = malo;
-  char** probado = ok;
-  char joseok = probar;
-    char ** new = jose;
+  char** triangulo = stone;
   char** cuadradoB = whiteSquare;
   char** cuadradoN = reverse(cuadradoB);
 
